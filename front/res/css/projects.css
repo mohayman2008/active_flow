@@ -1,0 +1,52 @@
+section.main-canvas {
+    height: 100%;
+    width: 100%;
+}
+
+section.main-canvas>H2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    min-height: 100px;
+    width: 100%;
+    margin: 0;
+    padding-left: 40px;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+div.projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+div.project-box {
+    display: flex;
+    flex-direction: column;
+    min-height: 400px;
+    width: 400px;
+    margin-top: 60px;
+    margin-left: 60px;
+    border: 1px solid #CCCCCC;
+}
+
+H3.project-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    margin: 0;
+    font-size: 40px;
+}
+
+div.project-data {
+    height: 30px;
+    width: 100%;
+    margin: 0;
+    margin-top: 10px;
+    padding: 2px 16px;
+    font-size: 20px;
+}
